@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Nunito:wght@200;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding-top: 60px;
+    /* background-image: url("https://res.cloudinary.com/dnsobmqoh/image/upload/v1668864516/Screenshot_2022-11-19_at_6.57.11_PM_nyrxka.png");
+     */
+     background-color: lightblue;
+     font-family: 'Kdam Thmor Pro', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    background-size: cover;
+    height: 100vh;
+}
+
+.login {
+    width: 350px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 5px;
+color:rgb(147, 184, 195);
+}
+
+h1 {
+    color:#629ebc;
+    text-align: center;
+
+}
+
+h2 {
+
+    color: black;
+}
+
+label {
+    color: black;
+    font-size: 17px;
+}
+
+#Uname {
+    margin: 3px;
+    width: 300px;
+    height: 30px;   
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#Pass {
+    width: 300px;
+    height: 30px;
+margin: 3px;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+
+#log {
+    width: 100px;
+    height: 30px;
+    margin: 3px;
+
+    border-radius: 10px;
+    padding-left: 7px;
+    background-color:#dad2cb;
+}
+#log:hover{
+    background-color:lightblue;
+}
+.space-bar{
+    margin: 3px;
+}
+span {
+    color: rgb(54, 34, 34);
+    font-size: 17px;
+}
+
+a {
+    float: right;
+    /* background-color:grey; */
+}
